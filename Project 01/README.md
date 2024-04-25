@@ -19,7 +19,7 @@ This repository contains a series of exercises designed to demonstrate control o
 
 ## Usage
 
-### Exercise 1-2: Drive on Command
+### Drive on Command
 
 This exercise demonstrates basic motor control with the EV3 robot. The program reads the state of a touch sensor and controls two main motors. It runs in a non-blocking manner, allowing for other operations to potentially execute simultaneously.
 
@@ -27,14 +27,14 @@ To run this exercise:
 - Compile the code using a C++ compiler that supports C++11.
 - Deploy and execute on the EV3 robot.
 
-### Exercise 1-4: Object Identification
+### Object Identification
 
 In this exercise, the robot uses an ultrasonic sensor to detect the distance and direction of the nearest object. The robot does not move; it only reads and displays sensor values.
 
 To run this exercise:
 - Compile and deploy the code similarly as described for Exercise 1-2.
 
-### Exercise 1-5: Tracking a Moving Object
+### Tracking a Moving Object
 
 This exercise completes the functionality by enabling the robot to track and move towards a detected object, adjusting its speed based on the object's distance and angle.
 
